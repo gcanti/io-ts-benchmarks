@@ -4,6 +4,7 @@
 git clone https://github.com/gcanti/io-ts-benchmarks.git
 cd io-ts-benchmarks
 npm i
+npm run build
 npm start
 ```
 
