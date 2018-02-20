@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "module": "commonjs",
+    "strict": true,
+    "noImplicitReturns": false,
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "target": "es5",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./src"]
+}

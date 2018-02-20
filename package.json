@@ -1,0 +1,35 @@
+{
+  "name": "io-ts-benchmarks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run prettier",
+    "clean": "rm -rf lib/*",
+    "build": "npm run clean && tsc",
+    "start": "node perf/space-object.js",
+    "prettier":
+      "prettier --no-semi --single-quote --print-width 120 --parser typescript --list-different \"src/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcanti/io-ts-benchmarks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcanti/io-ts-benchmarks/issues"
+  },
+  "homepage": "https://github.com/gcanti/io-ts-benchmarks#readme",
+  "dependencies": {
+    "@types/joi": "^13.0.5",
+    "benchmark": "^2.1.4",
+    "io-ts": "^1.0.2",
+    "joi": "^13.1.2",
+    "prettier": "^1.8.2",
+    "runtypes": "^2.0.0",
+    "tcomb-validation": "^3.4.1",
+    "typescript": "^2.7.2"
+  }
+}
