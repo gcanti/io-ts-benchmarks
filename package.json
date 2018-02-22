@@ -7,7 +7,7 @@
     "prof": "NODE_ENV=production node --prof prof/space-object-valid.js",
     "clean": "rm -rf lib/*",
     "build": "npm run clean && tsc",
-    "start": "NODE_ENV=production node perf/space-object-valid.js",
+    "start": "NODE_ENV=production node perf/space-object-valid.js && node perf/space-object-invalid.js",
     "prettier":
       "prettier --no-semi --single-quote --print-width 120 --parser typescript --list-different \"src/**/*.ts\""
   },
@@ -26,7 +26,7 @@
     "@types/joi": "^13.0.5",
     "ajv": "^6.1.1",
     "benchmark": "^2.1.4",
-    "io-ts": "^1.0.2",
+    "io-ts": "^1.0.3",
     "joi": "^13.1.2",
     "prettier": "^1.8.2",
     "runtypes": "^2.0.0",
