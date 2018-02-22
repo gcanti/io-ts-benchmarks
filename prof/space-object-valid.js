@@ -1,3 +1,7 @@
+// https://nodejs.org/en/docs/guides/simple-profiling/
+// npm run prof
+// node --prof-process isolate-0xnnnnnnnnnnnn-v8.log > processed.txt
+
 const Benchmark = require('benchmark')
 const { SpaceObjectIots } = require('../lib/space-object/io-ts')
 
