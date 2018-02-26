@@ -20,21 +20,21 @@ v8.9.3
 Valid input
 
 ```
-runtypes x 45,959 ops/sec ±2.79% (78 runs sampled)
-io-ts x 586,151 ops/sec ±0.60% (89 runs sampled)
-io-ts (using is instead of decode) x 1,003,559 ops/sec ±0.75% (84 runs sampled)
-tcomb-validation x 58,899 ops/sec ±0.40% (86 runs sampled)
-joi x 28,930 ops/sec ±0.41% (89 runs sampled)
-ajv x 4,643,451 ops/sec ±0.34% (87 runs sampled)
+runtypes x 44,509 ops/sec ±2.60% (75 runs sampled)
+io-ts x 670,215 ops/sec ±0.47% (86 runs sampled)
+io-ts (using is instead of decode) x 1,215,748 ops/sec ±0.84% (80 runs sampled)
+tcomb-validation x 58,005 ops/sec ±0.31% (89 runs sampled)
+joi x 29,581 ops/sec ±0.55% (90 runs sampled)
+ajv x 4,642,593 ops/sec ±0.49% (87 runs sampled)
 ```
 
 Invalid input
 
 ```
-runtypes x 22,534 ops/sec ±1.36% (81 runs sampled)
-io-ts x 557,433 ops/sec ±0.36% (90 runs sampled)
-io-ts (using is instead of decode) x 1,073,774 ops/sec ±0.82% (83 runs sampled)
-tcomb-validation x 43,722 ops/sec ±0.34% (90 runs sampled)
-joi x 12,010 ops/sec ±0.96% (87 runs sampled)
-ajv x 3,771,462 ops/sec ±0.29% (88 runs sampled)
+runtypes x 23,083 ops/sec ±1.41% (82 runs sampled)
+io-ts x 621,506 ops/sec ±0.45% (85 runs sampled)
+io-ts (using is instead of decode) x 1,310,200 ops/sec ±0.66% (84 runs sampled)
+tcomb-validation x 44,143 ops/sec ±0.50% (89 runs sampled)
+joi x 12,206 ops/sec ±0.78% (87 runs sampled)
+ajv x 3,806,796 ops/sec ±0.19% (88 runs sampled)
 ```
