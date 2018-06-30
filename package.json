@@ -23,12 +23,12 @@
   "homepage": "https://github.com/gcanti/io-ts-benchmarks#readme",
   "dependencies": {
     "@types/joi": "^13.0.5",
-    "ajv": "^6.1.1",
+    "ajv": "^6.5.1",
     "benchmark": "^2.1.4",
-    "io-ts": "^1.0.4",
-    "joi": "^13.1.2",
+    "io-ts": "^1.1.5",
+    "joi": "^13.4.0",
     "prettier": "^1.8.2",
-    "runtypes": "^2.0.0",
+    "runtypes": "^2.0.6",
     "tcomb-validation": "^3.4.1",
     "typescript": "^2.7.2"
   }

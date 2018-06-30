@@ -14,27 +14,27 @@ npm start
 
 ```
 node --version
-v8.9.3
+v10.1.0
 ```
 
 Valid input
 
 ```
-runtypes x 44,509 ops/sec ±2.60% (75 runs sampled)
-io-ts x 670,215 ops/sec ±0.47% (86 runs sampled)
-io-ts (using is instead of decode) x 1,215,748 ops/sec ±0.84% (80 runs sampled)
-tcomb-validation x 58,005 ops/sec ±0.31% (89 runs sampled)
-joi x 29,581 ops/sec ±0.55% (90 runs sampled)
-ajv x 4,642,593 ops/sec ±0.49% (87 runs sampled)
+runtypes x 21,970 ops/sec ±1.42% (67 runs sampled)
+io-ts x 561,110 ops/sec ±0.60% (88 runs sampled)
+io-ts (using is instead of decode) x 1,730,509 ops/sec ±0.60% (87 runs sampled)
+tcomb-validation x 60,526 ops/sec ±0.49% (90 runs sampled)
+joi x 38,406 ops/sec ±1.35% (85 runs sampled)
+ajv x 5,845,805 ops/sec ±0.61% (90 runs sampled)
 ```
 
 Invalid input
 
 ```
-runtypes x 23,083 ops/sec ±1.41% (82 runs sampled)
-io-ts x 621,506 ops/sec ±0.45% (85 runs sampled)
-io-ts (using is instead of decode) x 1,310,200 ops/sec ±0.66% (84 runs sampled)
-tcomb-validation x 44,143 ops/sec ±0.50% (89 runs sampled)
-joi x 12,206 ops/sec ±0.78% (87 runs sampled)
-ajv x 3,806,796 ops/sec ±0.19% (88 runs sampled)
+runtypes x 8,035 ops/sec ±1.76% (68 runs sampled)
+io-ts x 486,146 ops/sec ±2.55% (85 runs sampled)
+io-ts (using is instead of decode) x 1,714,454 ops/sec ±1.94% (85 runs sampled)
+tcomb-validation x 41,472 ops/sec ±0.74% (87 runs sampled)
+joi x 13,108 ops/sec ±0.88% (88 runs sampled)
+ajv x 4,235,859 ops/sec ±3.41% (88 runs sampled)
 ```
