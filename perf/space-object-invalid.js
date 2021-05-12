@@ -2,6 +2,7 @@ const Benchmark = require('benchmark')
 const { SpaceObjectRuntypes } = require('../lib/space-object/runtypes')
 const { SpaceObjectIots } = require('../lib/space-object/io-ts')
 const { SpaceObjectTcombValidation, validate } = require('../lib/space-object/tcomb-validation')
+const { SpaceObjectJoi13 } = require('../lib/space-object/joi13')
 const { SpaceObjectJoi } = require('../lib/space-object/joi')
 const { validateJSON } = require('../lib/space-object/ajv')
 
@@ -47,7 +48,10 @@ suite
   .add('tcomb-validation', function() {
     validate(input, SpaceObjectTcombValidation)
   })
-  .add('joi', function() {
+  .add('joi@13', function() {
+    SpaceObjectJoi13.validate(input)
+  })
+  .add('joi@17', function() {
     SpaceObjectJoi.validate(input)
   })
   .add('ajv', function() {

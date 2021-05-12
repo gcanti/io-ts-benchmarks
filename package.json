@@ -28,6 +28,7 @@
     "fp-ts": "^2.9.5",
     "io-ts": "^2.2.16",
     "joi": "^17.4.0",
+    "joi13": "npm:joi@^13.7.0",
     "prettier": "^2.2.1",
     "runtypes": "^5.1.0",
     "tcomb-validation": "^3.4.1"
